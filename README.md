@@ -4,6 +4,8 @@
 
 <h1 align="center">LumenPod</h1>
 
+[English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md)
+
 <p align="center">
   <strong>A local media library for Mac.</strong><br>
   Organize your photos, videos and audio without moving files.<br>
@@ -12,10 +14,10 @@
 
 <p align="center">
   <a href="https://lumenpod.app/?utm_source=github&utm_medium=readme">Website</a> ·
-  <a href="#install">Download</a> ·
+  <a href="#get-started">Download</a> ·
   <a href="https://lumenpod.app/guides?utm_source=github&utm_medium=readme">Guides</a> ·
   <a href="https://lumenpod.app/support?utm_source=github&utm_medium=readme">Support</a> ·
-  <a href="../../issues">Issues</a>
+  <a href="https://github.com/Prototaru/lumenpod/issues">Issues</a>
 </p>
 
 ![LumenPod library on macOS: a grid of images and videos with ratings, a tag sidebar and folder locations](assets/lumenpod-media-library.webp)
@@ -87,68 +89,14 @@ libraries between Macs.
   </tr>
 </table>
 
-## Requirements
+## Get started
 
-- macOS 14 Sonoma or later
-- A Mac with Apple Silicon (M1 or later). Intel Macs are not supported.
-- Interface languages: English, Simplified Chinese, Traditional Chinese and Japanese.
-- An internet connection for license activation and periodic license checks. Your media
-  itself stays local. AI features require model downloads.
+[Download LumenPod for Mac](https://lumenpod.app/?utm_source=github&utm_medium=readme)
+and drag it into **Applications**. Requires macOS 14 or later on Apple Silicon.
 
-## Install
-
-1. [Download LumenPod for macOS](https://dl.lumenpod.app/LumenPod-latest-aarch64.dmg)
-   (Apple Silicon).
-2. Open the disk image and drag LumenPod into **Applications**.
-3. Start the **14-day free trial** from the first-launch screen: every feature, once per
-   device, with no account or card. If you already own a license, enter the activation code
-   from your [orders page](https://lumenpod.app/orders) in **Settings → License**.
-
-## Pricing and licenses
-
-- **LumenPod Pro: $29.99, one-time purchase.** No subscription; every future update included.
-- One license covers up to 3 Macs you own, including local AI search with a model download.
-- Refunds within 14 days, requested from your orders page — see the
-  [Terms of Service](https://lumenpod.app/terms#refund-policy).
-- After the trial ends or a license lapses, you can still browse, play, export, delete,
-  decrypt and recover existing media, open existing vaults and extract or embed subtitles.
-  Adding and editing media, creating vaults, encrypting files, AI search, local network
-  sharing and browsing disconnected-drive catalogs require an active license.
-
-Current plans and prices: [lumenpod.app/#pricing](https://lumenpod.app/?utm_source=github&utm_medium=readme#pricing).
-
-## Privacy
-
-- Your media is not uploaded to LumenPod servers. Encryption and decryption happen locally.
-- The first-launch privacy screen shows crash reports and usage analytics enabled; you can
-  switch either off before continuing, or later in **Settings → Privacy**.
-- Each launch sends an anonymous count with app version, OS version, system language and
-  WebView version, without a persistent identifier. No media content or file paths.
-- Full details: [Privacy Policy](https://lumenpod.app/privacy).
-
-## FAQ
-
-**Is LumenPod open source?**
-No. LumenPod is proprietary. This repository exists for public bug reports and feature
-requests.
-
-**Does it work on Intel Macs?**
-No. The download is an Apple Silicon build only.
-
-**Does it move or copy my files into a library?**
-No. The direct-download app catalogs your existing folders in place. Uninstalling it does not
-delete your unencrypted originals.
-
-**What happens to my encrypted files after the trial ends?**
-They stay yours. Existing vaults keep opening with their passwords without an active
-license. Keep backups of your media and your recovery files either way.
-
-**Does it sync my library between Macs?**
-No. A license covers up to 3 Macs, but their libraries are separate.
-
-More answers: [lumenpod.app/#faq](https://lumenpod.app/?utm_source=github&utm_medium=readme#faq) ·
-[Help Center](https://lumenpod.app/help?utm_source=github&utm_medium=readme) ·
-[Release notes](https://lumenpod.app/changelog?utm_source=github&utm_medium=readme)
+See the website for [pricing and trial details](https://lumenpod.app/?utm_source=github&utm_medium=readme#pricing),
+the [Help Center](https://lumenpod.app/help?utm_source=github&utm_medium=readme)
+and [release notes](https://lumenpod.app/changelog?utm_source=github&utm_medium=readme).
 
 ## Guides
 
@@ -162,7 +110,7 @@ More answers: [lumenpod.app/#faq](https://lumenpod.app/?utm_source=github&utm_me
 
 ## Feedback and support
 
-- **Bugs and feature requests:** [open an issue](../../issues/new). Include your macOS
+- **Bugs and feature requests:** [open an issue](https://github.com/Prototaru/lumenpod/issues/new/choose). Include your macOS
   version and LumenPod version (Settings → About).
 - **License, billing and refunds:** email [support@lumenpod.app](mailto:support@lumenpod.app).
   Never post activation codes, order numbers or your account email in a public issue.
@@ -172,5 +120,8 @@ More answers: [lumenpod.app/#faq](https://lumenpod.app/?utm_source=github&utm_me
 ## License
 
 LumenPod is proprietary software. © 2026 LumenPod. All rights reserved.
-Use of the app is governed by the [End User License Agreement](https://lumenpod.app/eula).
+[Privacy Policy](https://lumenpod.app/privacy) ·
+[Terms of Service](https://lumenpod.app/terms) ·
+[End User License Agreement](https://lumenpod.app/eula)
+
 The text and images in this repository may not be reused without permission.
