@@ -1,0 +1,104 @@
+name: Bug report
+description: Something in LumenPod doesn't work the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        **This tracker is public.** Never include activation codes, order numbers, your account email or vault passwords.
+        For license, billing or refund problems, email support@lumenpod.app instead.
+        Screenshots can show private file names and thumbnails — crop or blur them before attaching.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem. If the app showed an error, paste the exact message.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add a folder from an external drive
+        2. Unplug the drive
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: input
+    id: app-version
+    attributes:
+      label: LumenPod version
+      description: Settings → About
+      placeholder: e.g. 1.2.0
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: e.g. macOS 15.5
+    validations:
+      required: true
+
+  - type: input
+    id: mac-model
+    attributes:
+      label: Mac model
+      placeholder: e.g. MacBook Air (M2)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: storage
+    attributes:
+      label: Where are the affected files?
+      options:
+        - On this Mac's internal disk
+        - On an external drive
+        - On a network volume
+        - Not related to specific files
+    validations:
+      required: false
+
+  - type: dropdown
+    id: vault
+    attributes:
+      label: Does the problem involve an encrypted vault?
+      options:
+        - "No"
+        - "Yes"
+        - Not sure
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots or screen recordings help. Crop out private file names first.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched the existing issues and this hasn't been reported yet.
+          required: true
+        - label: This report contains no activation codes, order numbers, account emails or passwords.
+          required: true

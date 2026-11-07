@@ -1,0 +1,40 @@
+name: Feature request
+description: Suggest something that would make LumenPod better for your collection.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The most useful requests describe the problem first. Tell us what you're trying to do with your collection, then how you'd like LumenPod to help.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe your collection and the task that's hard or impossible today.
+      placeholder: e.g. I keep concert recordings on two external drives and want to see which drive holds each one without plugging both in.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like LumenPod to do?
+    validations:
+      required: false
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: How do you handle it today?
+      description: Other apps, scripts or manual steps you use instead.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you submit
+      options:
+        - label: I searched the existing issues and this hasn't been requested yet.
+          required: true
