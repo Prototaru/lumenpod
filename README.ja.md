@@ -2,33 +2,24 @@
 
 [English](README.md) · [简体中文](README.zh-Hans.md) · [繁體中文](README.zh-Hant.md) · [日本語](README.ja.md)
 
-**Mac のローカルメディアライブラリ。写真・動画・音声を整理し、見せたくないものは非表示や暗号化で保護できます。**
+LumenPod は Mac 用のローカルメディアライブラリです。写真・動画・音声を元の場所に置いたまま整理し、プライベートなメディアを非表示や暗号化で保護できます。
 
-ファイルは元のフォルダに置いたまま、タグ・評価・コレクションで整理。暗号化した動画もアプリ内でそのまま再生できます。
+このリポジトリではダウンロード・ガイド・サポートへのリンクを案内し、不具合の報告や機能の提案を受け付けています。LumenPod はプロプライエタリソフトウェアであり、ソースコードは公開していません。
 
-[公式サイト](https://lumenpod.app/ja?utm_source=github&utm_medium=readme) · [ダウンロード・試用](https://lumenpod.app/ja?utm_source=github&utm_medium=readme#pricing) · [ヘルプ](https://lumenpod.app/ja/help?utm_source=github&utm_medium=readme) · [問題の報告](https://github.com/Prototaru/lumenpod/issues)
+[ダウンロード・公式サイト](https://lumenpod.app/ja?utm_source=github&utm_medium=readme) · [ヘルプ](https://lumenpod.app/ja/help?utm_source=github&utm_medium=readme) · [リリースノート（英語）](https://lumenpod.app/changelog?utm_source=github&utm_medium=readme) · [Issues](https://github.com/Prototaru/lumenpod/issues)
 
-![LumenPod の Mac メディアライブラリ：写真と動画の一覧、タグ、フォルダの場所](assets/lumenpod-media-library.webp)
+Apple Silicon 搭載 Mac と macOS 14 以降が必要です。[料金と試用条件](https://lumenpod.app/ja?utm_source=github&utm_medium=readme#pricing)は公式サイトをご覧ください。
 
-このリポジトリは不具合の報告と機能の提案を受け付けるためのものです。LumenPod はプロプライエタリソフトウェアであり、ソースコードは公開していません。
+![Mac 版 LumenPod：メディア一覧、タグ、フォルダの場所](assets/lumenpod-media-library.webp)
 
 ## 主な機能
 
-- **ファイルを移動せずに写真・動画・音声を整理**：既存のフォルダを追加し、タグ・評価・好きな順番のコレクションで閲覧・再生できます。
-- **外付けドライブのメディアカタログ**：外付けドライブやネットワークボリュームのコレクションを整理。ドライブを外してもカタログを確認でき、再接続すればファイルを開けます。
-- **関連ファイルを一つの項目に**：同じ作品の別バージョン、カバー画像、字幕をまとめ、再生するファイルを選べます。ファイルが手元になくても作品を登録できます。
-- **ローカル AI 検索**：モデルをダウンロードすれば、覚えている内容を自分の言葉で入力して写真を探したり、似た画像を検索したりできます。動画の検索は単一フレームに基づき、動画全体の内容検索ではありません。暗号化したメディアは対象外です。
-- **Mac 上で字幕を生成**：動画や音声の英語・中国語・日本語の発話から字幕を生成。メディアはアップロードされません。別途 FFmpeg をインストールすると、暗号化されていない動画の字幕トラックの抽出・埋め込みもできます。
-- **個別のパスワードで保護する暗号化領域**：選んだファイルを Mac 上で暗号化し、暗号化した動画を直接再生できます。非表示は普段の一覧での見え方を変え、暗号化はファイルの内容を保護します。
-- **ローカルネットワークと WebDAV で共有**：ほかの端末のブラウザや WebDAV クライアントから公開メディアを読み取り専用で閲覧できます。共有にはパスワードがなく、非表示・暗号化したメディアは含まれません。Mac 間の同期機能ではありません。
-
-![LumenPod で暗号化した動画をアプリ内再生](assets/lumenpod-encrypted-video-playback.webp)
-
-## はじめに
-
-[公式サイトから Mac 版をダウンロード](https://lumenpod.app/ja?utm_source=github&utm_medium=readme)し、アプリを Applications にドラッグしてください。Apple Silicon 搭載 Mac と macOS 14 以降が必要です。
-
-料金と試用条件は[公式サイト](https://lumenpod.app/ja?utm_source=github&utm_medium=readme#pricing)をご覧ください。[ヘルプ](https://lumenpod.app/ja/help?utm_source=github&utm_medium=readme)と[リリースノート（英語）](https://lumenpod.app/changelog?utm_source=github&utm_medium=readme)も用意しています。
+- ファイルを移動せず、タグ・評価・好きな順番のコレクションで整理。
+- 外付けドライブやネットワークボリュームをカタログ化。ドライブを外してもオフラインのカタログを閲覧可能。
+- 動画の別バージョン・カバー画像・字幕を一つの項目に整理。
+- 普段の一覧からメディアを非表示にしたり、個別のパスワードで保護する領域で暗号化したりできます。暗号化した動画もアプリ内で直接再生。
+- ダウンロードしたローカル AI モデルで、説明文や似た画像から写真を検索。英語・中国語・日本語の音声から字幕も生成できます。動画検索は単一フレームに基づき、暗号化したメディアは AI 検索の対象外です。
+- ブラウザや WebDAV を使い、ローカルネットワークで公開メディアを読み取り専用で共有。共有にはパスワードがなく、非表示・暗号化したメディアは含まれません。ライブラリの同期機能ではありません。
 
 ## ガイド（英語）
 
